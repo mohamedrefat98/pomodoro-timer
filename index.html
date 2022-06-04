@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 4</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      .btn:hover,.btn-primary{background-color:cornflowerblue !important;}      
+    </style>
+  </head>
+  <body>
+    
+    <!-- Pomodoro Timer -->
+    <h1 style="text-align:center; color: cornflowerblue; font-family: 'Courier New', Courier, monospace; font-size: 60px; margin-bottom: 60px; ">Pomodoro Timer</h1>
+    <h2 style="text-align:center; font-family: 'Courier New', Courier, monospace; font-size: 30px;">Work time <small id="whour">
+      <span class="work-hour">0</span> :
+      <span class="work-min">00</span> :
+      <span class="work-sec">00</span>
+    </small>
+    </h2> 
+    <h2 style="text-align:center; font-family: 'Courier New', Courier, monospace; font-size: 30px; margin-bottom: 60px;">Break time <small id="bhour">
+      <span class="work-hour">0</span> :
+      <span class="work-min">00</span> :
+      <span class="work-sec">00</span> 
+    </small>
+    </h2> 
+
+    <div class="controls" style="text-align: center;">
+      <button style="padding: 10px; font-family: 'Courier New', Courier, monospace; font-weight: bold; font-size: 18px ; background-color: lightgrey; border: 0; border-radius: 10px; margin-left: 7px; cursor: pointer; "  id="start-work" class="btn btn-primary">Start Work</button>
+      <button style="padding: 10px; font-family: 'Courier New', Courier, monospace; font-weight: bold; font-size: 18px ; background-color: lightgrey; border: 0; border-radius: 10px; margin-left: 7px; cursor: pointer; "  id="start-break" class="btn">Start Break</button>
+      <button style="padding: 10px; font-family: 'Courier New', Courier, monospace; font-weight: bold; font-size: 18px ; background-color: lightgrey; border: 0; border-radius: 10px; margin-left: 7px; cursor: pointer; "  id="resume-work" class="btn">Resume Work</button>
+      <button style="padding: 10px; font-family: 'Courier New', Courier, monospace; font-weight: bold; font-size: 18px ; background-color: lightgrey; border: 0; border-radius: 10px; margin-left: 7px; cursor: pointer; "  id="end-work" class="btn">End Work</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
